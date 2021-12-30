@@ -10,7 +10,12 @@ app.set('views', path.join(__dirname, '/views'))
 app.get('/r/:subreddit', (req, res) => {
     const { subreddit } = req.params;
     const data = redditData[subreddit];
-    res.render('subreddit', { ...data });
+    if (data) {
+        res.render('subreddit', { ...data });
+    }
+    else {
+        res.render('error', {subreddit});
+    }
 })
 
 app.listen(8080, () => {
