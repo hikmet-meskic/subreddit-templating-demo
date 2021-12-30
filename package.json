@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hikmet-meskic/subreddit-templating-demo/issues"
   },
-  "homepage": "https://github.com/hikmet-meskic/subreddit-templating-demo#readme"
+  "homepage": "https://github.com/hikmet-meskic/subreddit-templating-demo#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
