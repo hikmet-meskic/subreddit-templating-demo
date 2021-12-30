@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hikmet-meskic/subreddit-templating-demo#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.2"
   }
 }
